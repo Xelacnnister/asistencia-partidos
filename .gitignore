@@ -48,3 +48,4 @@ Thumbs.db
 # credentials
 /src/environments
 src/environments
+public
