@@ -1,0 +1,7 @@
+<mat-card>
+    <app-jornadas (jornada)="filtrarPorJornada($event)"></app-jornadas>
+
+    <app-listado-alumnos [jornada]="jornadaAFiltrar"></app-listado-alumnos>
+</mat-card>
+
+
